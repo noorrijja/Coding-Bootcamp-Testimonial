@@ -1,0 +1,157 @@
+body {
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.flex-container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  padding-top: 0.625rem;
+  padding-left: 1.781rem;
+  padding-right: 1.781rem;
+  gap: 1.45rem;
+  background-image: url(./images/pattern-curve.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: contain;
+}
+
+.profile-section {
+  width: 19.922rem;
+  height: 19.922rem;
+  background-image: url(./images/pattern-bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 4;
+}
+.profile-photo {
+  width: 15.75rem;
+  height: 15.75rem;
+  box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.4);
+}
+
+.slider {
+  width: 4.8rem;
+  height: 2.25rem;
+  border-radius: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.95rem;
+  position: absolute;
+  top: 83.5%;
+  background-color: white;
+  box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn {
+  border: none;
+  padding: 0;
+  background-color: white;
+  line-height: 0.617rem;
+  margin: 0;
+}
+
+.about-section {
+  background-image: url(./images/pattern-quotes.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 25% 25%;
+  width: 19.922rem;
+  height: 19.922rem;
+  text-align: center;
+}
+
+.hide {
+  display: none !important;
+}
+
+.about {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5rem;
+  color: #46465a;
+  padding: 1rem;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 16px;
+  color: hsl(240, 38%, 20%);
+}
+
+.position {
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  color: #8686ad;
+  opacity: 75%;
+}
+
+@media screen and (min-width: 1440px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-bottom: 2rem;
+    background-position: bottom left;
+    background-size: 25rem auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+  .about {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5rem;
+    margin-bottom: 0;
+    padding-top: 4.5rem;
+  }
+  .about-section {
+    text-align: left;
+    background-position: top 19% left 25%;
+    background-size: 25% 25%;
+    width: 22.922rem;
+    height: 22.922rem;
+  }
+  .name {
+    padding-top: 0;
+    padding: 1rem;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .position {
+    display: inline-block;
+  }
+  .slider {
+    position: absolute;
+    top: 84.5%;
+    left: 18%;
+  }
+  .profile-section {
+    width: 22.922rem;
+    height: 22.922rem;
+  }
+  .profile-photo {
+    width: 18.75rem;
+    height: 18.75rem;
+  }
+}
