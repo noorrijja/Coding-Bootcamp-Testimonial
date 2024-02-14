@@ -13,7 +13,11 @@ Users should be able to:
 
 #### Mobile (iphone 6/6s)
 
+![screencapture-127-0-0-1-5500-coding-bootcamp-testimonials-slider-master-index-html-2024-02-14-22_20_38](https://github.com/noorrijja/Coding-Bootcamp-Testimonial/assets/144622904/035238c8-6d06-42d0-8bc6-69135cb9e580)
+
 #### Desktop (Macbook Pro)
+
+![screencapture-127-0-0-1-5500-coding-bootcamp-testimonials-slider-master-index-html-2024-02-14-22_18_01](https://github.com/noorrijja/Coding-Bootcamp-Testimonial/assets/144622904/3561c561-4b17-4ce1-93c4-f0d4d790cd3e)
 
 ### Built with
 
